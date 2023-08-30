@@ -152,7 +152,7 @@
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  a .breadcrumb .button {
+  a.breadcrumb.button {
     display: none !important;
   }
 }
