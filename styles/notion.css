@@ -152,6 +152,9 @@
     padding-left: 2vw;
     padding-right: 2vw;
   }
+  a .breadcrumb .button {
+    display: none !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
