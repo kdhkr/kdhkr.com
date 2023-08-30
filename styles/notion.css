@@ -382,3 +382,7 @@
   display: none !important;
   height: 0 !important;
 }
+
+.notion-table {
+  overflow: hidden !important;
+}
