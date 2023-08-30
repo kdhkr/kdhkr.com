@@ -26,7 +26,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: "https://static.kdh.io/resources/kdhkr-bimi.svg",
+  defaultPageIcon: "../../public/kdhkr.svg",
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
