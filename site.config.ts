@@ -72,10 +72,13 @@ export default siteConfig({
     {
       title: 'Activities',
       pageId: '8ef7e5ea33e340fba7de5b2e32d14049'
-    },
+    }
+  ]
+})
+
+/*
     {
       title: 'Blog',
       pageId: '6b5a9caa3e3847b8bd29cdd7d663b77b'
     }
-  ]
-})
+*/
