@@ -18,6 +18,9 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+            {/* Add Google AdSense script */}
+            <meta name="google-adsense-account" content="ca-pub-7356923884519790" />
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7356923884519790" crossorigin="anonymous"></script>
           </Head>
 
           <body>
