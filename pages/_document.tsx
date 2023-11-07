@@ -2,6 +2,7 @@ import * as React from 'react'
 import Document, { Head, Html, Main, NextScript } from 'next/document'
 
 import { IconContext } from '@react-icons/all-files'
+import GoogleAdSense from './GoogleAdSense';
 
 export default class MyDocument extends Document {
   render() {
@@ -18,9 +19,7 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
-            {/* Add Google AdSense script */}
-            <meta name="google-adsense-account" content="ca-pub-7356923884519790" />
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7356923884519790" crossorigin="anonymous"></script>
+            <GoogleAdSense />
           </Head>
 
           <body>
