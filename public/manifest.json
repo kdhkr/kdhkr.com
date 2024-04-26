@@ -1,6 +1,6 @@
 {
-  "name": "Next.js Notion Starter Kit",
-  "short_name": "Starter Kit",
+  "name": "Dohoon Kim",
+  "short_name": "Dohoon Kim",
   "icons": [
     {
       "src": "/favicon.png",
@@ -18,7 +18,7 @@
       "sizes": "192x192"
     }
   ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#2948FF",
+  "background_color": "#2948FF",
   "display": "standalone"
 }
