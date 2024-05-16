@@ -40,16 +40,16 @@ async function getAllPagesImpl(
     getPage
   )
 
-  const block = recordMap.block[pageId]?.value
-  if (!(getPageProperty<boolean|null>('Public', block, recordMap) ?? true)) {
-    return map
-  }
-
   const canonicalPageMap = Object.keys(pageMap).reduce(
     (map, pageId: string) => {
       const recordMap = pageMap[pageId]
       if (!recordMap) {
         throw new Error(`Error loading page "${pageId}"`)
+      }
+
+      const block = recordMap.block[pageId]?.value
+      if (!(getPageProperty<boolean|null>('Public', block, recordMap) ?? true)) {
+        return map
       }
 
       const canonicalPageId = getCanonicalPageId(pageId, recordMap, {
