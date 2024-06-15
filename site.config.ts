@@ -9,19 +9,19 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Kim Do Hoon',
+  name: 'Dohoon Kim',
   domain: 'kdhkr.com',
-  author: 'Do Hoon Kim',
+  author: 'Dohoon Kim',
 
   // open graph metadata (optional)
   description: '모두를 위한 작은 변화를 만듭니다. / Making Small Changes for Everyone.',
 
   // social usernames (optional)
-  // twitter: '#',
+  twitter: 'kdh_io',
   github: 'kdhkr',
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
+  newsletter: 'https://blog.kdhkr.com', // optional newsletter URL
   youtube: 'kdhkr', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
