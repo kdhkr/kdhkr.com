@@ -255,8 +255,7 @@
   border-radius: 0.5rem;
   border-bottom-left-radius: 0.125rem;
   box-decoration-break: clone;
-
-  background-color: none;
+  background-color: transparent;
 
   /* light yellow */
   background-image: linear-gradient(
