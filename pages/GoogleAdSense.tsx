@@ -5,7 +5,7 @@ const GoogleAdSense = () => {
     <div>
       <meta
         name="google-adsense-account"
-        content="ca-pub-4370279749446514"
+        content="ca-pub-7356923884519790"
       />
       <script
         async
