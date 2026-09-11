@@ -14,7 +14,8 @@ export default siteConfig({
   author: 'Dohoon Kim',
 
   // open graph metadata (optional)
-  description: '모두를 위한 작은 변화를 만듭니다. / Making Small Changes for Everyone.',
+  description:
+    '모두를 위한 작은 변화를 만듭니다. / Making Small Changes for Everyone.',
 
   // social usernames (optional)
   twitter: 'kdh_io',
@@ -50,7 +51,6 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
     {
@@ -71,10 +71,3 @@ export default siteConfig({
     }
   ]
 })
-
-/*
-    {
-      title: 'Blog',
-      pageId: '6b5a9caa3e3847b8bd29cdd7d663b77b'
-    }
-*/
